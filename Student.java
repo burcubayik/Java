@@ -2,7 +2,7 @@ package kodlamaioProject;
 
 public class Student extends User {
 	 int percentageOfProgress;
-	 public Student(int percentageOfProgress, String[] takenOfCourses) {
+	 public Student(int percentageOfProgress) {
 		super();
 		this.percentageOfProgress = percentageOfProgress;
 		
