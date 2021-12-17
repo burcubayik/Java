@@ -2,10 +2,11 @@ package gameProject.entities;
 
 public class Gamer {
 	int gamerId;
-	String firstName;
-	String lastName;
-	int dateOfBirth;
-	String nationalityId;
+	public String firstName;
+	public String lastName;
+	public int dateOfBirth;
+	public String nationalityId;
+ 
 	public Gamer(int gamerId, String firstName, String lastName, int dateOfBirth, String nationalityId) {
 		super();
 		this.gamerId = gamerId;
