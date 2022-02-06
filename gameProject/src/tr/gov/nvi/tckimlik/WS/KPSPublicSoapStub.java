@@ -131,7 +131,6 @@ public class KPSPublicSoapStub extends org.apache.axis.client.Stub implements tr
 }
     }
 
-	@Override
 	public boolean TCKimlikNoDogrula(String string, String ad, String soyad, int dogumYili) throws RemoteException {
 		// TODO Auto-generated method stub
 		return false;

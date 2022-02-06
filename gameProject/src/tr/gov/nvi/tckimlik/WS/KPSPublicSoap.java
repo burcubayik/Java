@@ -7,6 +7,10 @@
 
 package tr.gov.nvi.tckimlik.WS;
 
+import java.rmi.RemoteException;
+
 public interface KPSPublicSoap extends java.rmi.Remote {
     public boolean TCKimlikNoDogrula(long l, java.lang.String ad, java.lang.String soyad, int dogumYili) throws java.rmi.RemoteException;
+
+	
 }
